@@ -3,7 +3,7 @@ from tkinter import messagebox, scrolledtext
 import requests
 
 # OpenWeatherMap API configuration
-API_KEY = '2b005cdf180f7c2b16a805cb7e3d7294'  # Replace with your OpenWeatherMap API key
+API_KEY = ''  # Replace with your OpenWeatherMap API key
 BASE_URL = 'http://api.openweathermap.org/data/2.5/weather'
 
 def kelvin_to_celsius(kelvin):
